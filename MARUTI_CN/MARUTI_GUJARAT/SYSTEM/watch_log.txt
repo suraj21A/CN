@@ -1,0 +1,140 @@
+[2026-05-01 14:03:10] TATA watch_input started
+[2026-05-01 14:03:10] Watching folder: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT
+[2026-05-01 14:03:39] TATA watch_input started
+[2026-05-01 14:03:39] Watching folder: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT
+[2026-05-01 14:03:39] ============================================================
+[2026-05-01 14:03:39] New input file detected: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT\FileName (53) (1).xls
+[2026-05-01 14:03:41] Error processing file: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT\FileName (53) (1).xls
+[2026-05-01 14:03:41] Excel file format cannot be determined, you must specify an engine manually.
+[2026-05-01 14:03:41] Traceback (most recent call last):
+  File "C:\Users\choud\MARUTI_BANGLORE\SYSTEM\watchM_input.py", line 62, in process_file
+    result = process_maruti_cn(file_path)
+  File "C:\Users\choud\MARUTI_BANGLORE\SYSTEM\MARUTI_BANLORE_CN.py", line 389, in process_maruti_cn
+    df = prepare_input_df(input_file)
+  File "C:\Users\choud\MARUTI_BANGLORE\SYSTEM\MARUTI_BANLORE_CN.py", line 299, in prepare_input_df
+    df = pd.read_excel(input_path)
+  File "C:\Users\choud\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pandas\io\excel\_base.py", line 481, in read_excel
+    io = ExcelFile(
+        io,
+    ...<2 lines>...
+        engine_kwargs=engine_kwargs,
+    )
+  File "C:\Users\choud\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pandas\io\excel\_base.py", line 1608, in __init__
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: Excel file format cannot be determined, you must specify an engine manually.
+
+[2026-05-01 14:03:41] Error input moved to: C:\Users\choud\MARUTI_BANGLORE\SYSTEM\ErrorInput\FileName (53) (1)_20260501_140341.xls
+[2026-05-01 14:08:06] ============================================================
+[2026-05-01 14:08:06] New input file detected: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT\SHIP.xlsx
+[2026-05-01 14:08:07] TATA watch_input started
+[2026-05-01 14:08:07] Watching folder: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT
+[2026-05-01 14:08:07] ============================================================
+[2026-05-01 14:08:07] New input file detected: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT\SHIP.xlsx
+[2026-05-01 14:12:36] TATA watch_input started
+[2026-05-01 14:12:36] Watching folder: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT
+[2026-05-01 14:12:36] ============================================================
+[2026-05-01 14:12:36] New input file detected: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT\SHIP.xlsx
+[2026-05-01 14:13:16] TATA watch_input started
+[2026-05-01 14:13:16] Watching folder: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT
+[2026-05-01 14:13:16] ============================================================
+[2026-05-01 14:13:16] New input file detected: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT\SHIP.xlsx
+[2026-05-01 14:26:41] TATA watch_input started
+[2026-05-01 14:26:41] Watching folder: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT
+[2026-05-01 14:26:41] ============================================================
+[2026-05-01 14:26:41] New input file detected: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT\SHIP.xlsx
+[2026-05-01 14:28:02] TATA watch_input started
+[2026-05-01 14:28:02] Watching folder: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT
+[2026-05-01 14:28:02] ============================================================
+[2026-05-01 14:28:02] New input file detected: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT\SHIP.xlsx
+[2026-05-01 14:29:15] Output generated: C:\Users\choud\MARUTI_BANGLORE\Report Repository\2026-05-01\Maruti_CN_Export_2026-05-01_142915.xlsx
+[2026-05-01 14:29:15] Processed input moved to: C:\Users\choud\MARUTI_BANGLORE\RUN\ProcessedInput\SHIP_20260501_142915.xlsx
+[2026-05-01 14:56:09] TATA watch_input started
+[2026-05-01 14:56:09] Watching folder: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT
+[2026-05-01 14:56:09] ============================================================
+[2026-05-01 14:56:09] New input file detected: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT\ship2.xlsx
+[2026-05-02 10:44:56] TATA watch_input started
+[2026-05-02 10:44:56] Watching folder: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT
+[2026-05-02 10:44:56] ============================================================
+[2026-05-02 10:44:56] New input file detected: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT\ship2.xlsx
+[2026-05-02 10:46:25] No output generated. File moved to error folder: C:\Users\choud\MARUTI_BANGLORE\SYSTEM\ErrorInput\ship2_20260502_104625.xlsx
+[2026-05-04 13:38:33] TATA watch_input started
+[2026-05-04 13:38:33] Watching folder: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT
+[2026-05-04 13:38:33] ============================================================
+[2026-05-04 13:38:33] New input file detected: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT\MARUTI BANGLORE TRIPS.xlsx
+[2026-05-04 13:40:10] No output generated. File moved to error folder: C:\Users\choud\MARUTI_BANGLORE\SYSTEM\ErrorInput\MARUTI BANGLORE TRIPS_20260504_134010.xlsx
+[2026-05-06 12:50:05] TATA watch_input started
+[2026-05-06 12:50:05] Watching folder: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT
+[2026-05-06 12:50:05] ============================================================
+[2026-05-06 12:50:05] New input file detected: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT\SHIP_20260501_142915.xlsx
+[2026-05-06 12:51:19] Output generated: C:\Users\choud\MARUTI_BANGLORE\DailyReports\Maruti_CN_Export_2026-05-06_125119.xlsx
+[2026-05-06 12:51:19] Processed input moved to: C:\Users\choud\MARUTI_BANGLORE\RUN\ProcessedInput\SHIP_20260501_142915_20260506_125119.xlsx
+[2026-05-06 12:55:13] TATA watch_input started
+[2026-05-06 12:55:13] Watching folder: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT
+[2026-05-06 12:55:13] ============================================================
+[2026-05-06 12:55:13] New input file detected: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT\SHIP_20260501_142915.xlsx
+[2026-05-06 12:56:30] Output generated: C:\Users\choud\MARUTI_BANGLORE\DailyReports\Maruti_CN_Export_2026-05-06_125630.xlsx
+[2026-05-06 12:56:30] Processed input moved to: C:\Users\choud\MARUTI_BANGLORE\RUN\ProcessedInput\SHIP_20260501_142915_20260506_125630.xlsx
+[2026-05-06 13:11:46] TATA watch_input started
+[2026-05-06 13:11:46] Watching folder: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT
+[2026-05-06 13:11:46] ============================================================
+[2026-05-06 13:11:46] New input file detected: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT\SHIP_20260501_142915.xlsx
+[2026-05-06 13:12:51] Output generated: C:\Users\choud\MARUTI_BANGLORE\DailyReports\Maruti_CN_Export_2026-05-06_131251.xlsx
+[2026-05-06 13:12:51] Processed input moved to: C:\Users\choud\MARUTI_BANGLORE\RUN\ProcessedInput\SHIP_20260501_142915_20260506_131251.xlsx
+[2026-05-06 13:21:06] TATA watch_input started
+[2026-05-06 13:21:06] Watching folder: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT
+[2026-05-06 13:21:06] ============================================================
+[2026-05-06 13:21:06] New input file detected: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT\SHIP_20260501_142915.xlsx
+[2026-05-06 13:22:13] Output generated: C:\Users\choud\MARUTI_BANGLORE\DailyReports\Maruti_CN_Export_2026-05-06_132213.xlsx
+[2026-05-06 13:22:13] Processed input moved to: C:\Users\choud\MARUTI_BANGLORE\RUN\ProcessedInput\SHIP_20260501_142915_20260506_132213.xlsx
+[2026-05-06 13:26:19] TATA watch_input started
+[2026-05-06 13:26:19] Watching folder: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT
+[2026-05-06 13:26:19] ============================================================
+[2026-05-06 13:26:19] New input file detected: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT\SHIP_20260501_142915.xlsx
+[2026-05-06 13:27:23] TATA watch_input started
+[2026-05-06 13:27:23] Watching folder: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT
+[2026-05-06 13:27:23] ============================================================
+[2026-05-06 13:27:23] New input file detected: C:\Users\choud\MARUTI_BANGLORE\RUN\INPUT\MARUTI KHAR TRIPS (13).xlsx
+[2026-05-06 13:28:14] Output generated: C:\Users\choud\MARUTI_BANGLORE\DailyReports\Maruti_CN_Export_2026-05-06_132813.xlsx
+[2026-05-06 13:28:14] Processed input moved to: C:\Users\choud\MARUTI_BANGLORE\RUN\ProcessedInput\MARUTI KHAR TRIPS (13)_20260506_132813.xlsx
+[2026-05-06 14:10:00] TATA watch_input started
+[2026-05-06 14:10:00] Watching folder: C:\Users\choud\MARUTI_KHARKHODA\RUN\INPUT
+[2026-05-06 14:10:14] TATA watch_input started
+[2026-05-06 14:10:14] Watching folder: C:\Users\choud\MARUTI_KHARKHODA\RUN\INPUT
+[2026-05-06 14:10:29] TATA watch_input started
+[2026-05-06 14:10:29] Watching folder: C:\Users\choud\MARUTI_KHARKHODA\RUN\INPUT
+[2026-05-06 14:10:40] TATA watch_input started
+[2026-05-06 14:10:40] Watching folder: C:\Users\choud\MARUTI_KHARKHODA\RUN\INPUT
+[2026-05-06 14:10:40] ============================================================
+[2026-05-06 14:10:40] New input file detected: C:\Users\choud\MARUTI_KHARKHODA\RUN\INPUT\MARUTI KHAR TRIPS (13)_20260506_132813.xlsx
+[2026-05-06 14:12:06] Output generated: C:\Users\choud\MARUTI_KHARKHODA\DailyReports\Maruti_CN_Export_2026-05-06_141206.xlsx
+[2026-05-06 14:12:06] Processed input moved to: C:\Users\choud\MARUTI_KHARKHODA\RUN\ProcessedInput\MARUTI KHAR TRIPS (13)_20260506_132813_20260506_141206.xlsx
+[2026-05-07 12:54:01] TATA watch_input started
+[2026-05-07 12:54:01] Watching folder: C:\Users\choud\MARUTI_KHARKHODA\RUN\INPUT
+[2026-05-07 12:54:01] ============================================================
+[2026-05-07 12:54:01] New input file detected: C:\Users\choud\MARUTI_KHARKHODA\RUN\INPUT\MARUTI KHAR TRIPS (14).xlsx
+[2026-05-07 12:55:33] Output generated: C:\Users\choud\MARUTI_KHARKHODA\DailyReports\Maruti_CN_Export_2026-05-07_125533.xlsx
+[2026-05-07 12:55:33] Processed input moved to: C:\Users\choud\MARUTI_KHARKHODA\RUN\ProcessedInput\MARUTI KHAR TRIPS (14)_20260507_125533.xlsx
+[2026-05-07 13:09:56] TATA watch_input started
+[2026-05-07 13:09:56] Watching folder: C:\Users\choud\MARUTI_GUJARAT\RUN\INPUT
+[2026-05-07 13:09:56] ============================================================
+[2026-05-07 13:09:56] New input file detected: C:\Users\choud\MARUTI_GUJARAT\RUN\INPUT\MARUTI GUJ TRIPS (14).xlsx
+[2026-05-07 13:11:57] Output generated: C:\Users\choud\MARUTI_GUJARAT\DailyReports\Maruti_CN_Export_2026-05-07_131157.xlsx
+[2026-05-07 13:11:57] Processed input moved to: C:\Users\choud\MARUTI_GUJARAT\RUN\ProcessedInput\MARUTI GUJ TRIPS (14)_20260507_131157.xlsx
+[2026-05-19 13:37:10] TATA watch_input started
+[2026-05-19 13:37:10] Watching folder: C:\Users\choud\MARUTI_GUJARAT\RUN\INPUT
+[2026-05-19 13:37:10] ============================================================
+[2026-05-19 13:37:10] New input file detected: C:\Users\choud\MARUTI_GUJARAT\RUN\INPUT\MARUTI GUJRAT TRIPS (2).xlsx
+[2026-05-19 13:39:07] Output generated: C:\Users\choud\MARUTI_GUJARAT\DailyReports\MARUTI_GUJARAT_CN_2026-05-19_133907.xlsx
+[2026-05-19 13:39:07] Processed input moved to: C:\Users\choud\MARUTI_GUJARAT\RUN\ProcessedInput\MARUTI GUJRAT TRIPS (2)_20260519_133907.xlsx
+[2026-05-20 12:41:58] TATA watch_input started
+[2026-05-20 12:41:58] Watching folder: C:\Users\choud\MARUTI_GUJARAT\RUN\INPUT
+[2026-05-20 12:41:58] ============================================================
+[2026-05-20 12:41:58] New input file detected: C:\Users\choud\MARUTI_GUJARAT\RUN\INPUT\MARUTI GUJRAT TRIPS (3).xlsx
+[2026-05-20 13:03:58] TATA watch_input started
+[2026-05-20 13:03:58] Watching folder: C:\Users\choud\MARUTI_GUJARAT\RUN\INPUT
+[2026-05-20 13:03:58] ============================================================
+[2026-05-20 13:03:58] New input file detected: C:\Users\choud\MARUTI_GUJARAT\RUN\INPUT\MARUTI GUJRAT TRIPS (3).xlsx
+[2026-05-20 13:05:41] Output generated: C:\Users\choud\MARUTI_GUJARAT\DailyReports\MARUTI_GUJARAT_CN_2026-05-20_130541.xlsx
+[2026-05-20 13:05:41] Processed input moved to: C:\Users\choud\MARUTI_GUJARAT\RUN\ProcessedInput\MARUTI GUJRAT TRIPS (3)_20260520_130541.xlsx

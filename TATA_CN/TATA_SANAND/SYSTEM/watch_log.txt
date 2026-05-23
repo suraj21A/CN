@@ -1,0 +1,160 @@
+[2026-04-30 12:52:04] TATA watch_input started
+[2026-04-30 12:52:04] Watching folder: C:\Users\choud\TATA_SANAND\SYSTEM\INPUT
+[2026-04-30 12:53:07] TATA watch_input started
+[2026-04-30 12:53:07] Watching folder: C:\Users\choud\TATA_SANAND\SYSTEM\INPUT
+[2026-04-30 12:54:41] TATA watch_input started
+[2026-04-30 12:54:41] Watching folder: C:\Users\choud\TATA_SANAND\SYSTEM\INPUT
+[2026-04-30 12:54:47] Watcher stopped by user.
+[2026-04-30 12:57:33] TATA watch_input started
+[2026-04-30 12:57:33] Watching folder: C:\Users\choud\TATA_SANAND\INPUT
+[2026-04-30 12:57:57] Watcher stopped by user.
+[2026-04-30 12:59:39] TATA watch_input started
+[2026-04-30 12:59:39] Watching folder: C:\Users\choud\TATA_SANAND\RUN\INPUT
+[2026-04-30 12:59:39] ============================================================
+[2026-04-30 12:59:39] New input file detected: C:\Users\choud\TATA_SANAND\RUN\INPUT\Ship_Enq (1).xls
+[2026-04-30 13:00:49] Output generated: C:\Users\choud\TATA_SANAND\DailyReports\CN_Export_all.xlsx
+[2026-04-30 13:00:49] Processed input moved to: C:\Users\choud\TATA_SANAND\RUN\ProcessedInput\Ship_Enq (1)_20260430_130049.xls
+[2026-04-30 13:10:02] TATA watch_input started
+[2026-04-30 13:10:02] Watching folder: C:\Users\choud\TATA_SANAND\RUN\INPUT
+[2026-04-30 13:10:02] ============================================================
+[2026-04-30 13:10:02] New input file detected: C:\Users\choud\TATA_SANAND\RUN\INPUT\Ship_Enq (1)_20260430_130049.xls
+[2026-04-30 13:11:03] Output generated: C:\Users\choud\TATA_SANAND\DailyReports\CN_Export_all.xlsx
+[2026-04-30 13:11:03] Processed input moved to: C:\Users\choud\TATA_SANAND\RUN\ProcessedInput\Ship_Enq (1)_20260430_130049_20260430_131103.xls
+[2026-04-30 13:19:53] ============================================================
+[2026-04-30 13:19:53] New input file detected: C:\Users\choud\TATA_SANAND\RUN\INPUT\Ship_Enq (1)_20260430_130049_20260430_131103.xls
+[2026-04-30 13:19:56] TATA watch_input started
+[2026-04-30 13:19:56] Watching folder: C:\Users\choud\TATA_SANAND\RUN\INPUT
+[2026-04-30 13:19:56] ============================================================
+[2026-04-30 13:19:56] New input file detected: C:\Users\choud\TATA_SANAND\RUN\INPUT\Ship_Enq (1)_20260430_130049_20260430_131103.xls
+[2026-04-30 13:21:03] Output generated: C:\Users\choud\TATA_SANAND\DailyReports\HONDA_CN_all.xlsx
+[2026-04-30 13:21:03] Processed input moved to: C:\Users\choud\TATA_SANAND\RUN\ProcessedInput\Ship_Enq (1)_20260430_130049_20260430_131103_20260430_132103.xls
+[2026-04-30 13:24:57] TATA watch_input started
+[2026-04-30 13:24:57] Watching folder: C:\Users\choud\TATA_SANAND\RUN\INPUT
+[2026-04-30 13:24:57] ============================================================
+[2026-04-30 13:24:57] New input file detected: C:\Users\choud\TATA_SANAND\RUN\INPUT\Ship_Enq (1)_20260430_130049.xls
+[2026-04-30 13:26:28] TATA watch_input started
+[2026-04-30 13:26:28] Watching folder: C:\Users\choud\TATA_SANAND\RUN\INPUT
+[2026-04-30 13:26:28] ============================================================
+[2026-04-30 13:26:28] New input file detected: C:\Users\choud\TATA_SANAND\RUN\INPUT\Ship_Enq (1)_20260430_130049.xls
+[2026-04-30 13:26:58] TATA watch_input started
+[2026-04-30 13:26:58] Watching folder: C:\Users\choud\TATA_SANAND\RUN\INPUT
+[2026-04-30 13:26:58] ============================================================
+[2026-04-30 13:26:58] New input file detected: C:\Users\choud\TATA_SANAND\RUN\INPUT\Ship_Enq (1)_20260430_130049.xls
+[2026-04-30 13:28:03] Output generated: C:\Users\choud\TATA_SANAND\Report Repository\misc\HONDA_CN_all.xlsx
+[2026-04-30 13:28:03] Processed input moved to: C:\Users\choud\TATA_SANAND\RUN\ProcessedInput\Ship_Enq (1)_20260430_130049_20260430_132803.xls
+[2026-04-30 13:37:34] TATA watch_input started
+[2026-04-30 13:37:34] Watching folder: C:\Users\choud\TATA_SANAND\RUN\INPUT
+[2026-04-30 13:37:34] ============================================================
+[2026-04-30 13:37:34] New input file detected: C:\Users\choud\TATA_SANAND\RUN\INPUT\Ship_Enq (1)_20260430_130049.xls
+[2026-04-30 13:38:38] Output generated: C:\Users\choud\TATA_SANAND\DailyReports\CN_Export_2026-04-30_133838.xlsx
+[2026-04-30 13:38:38] Processed input moved to: C:\Users\choud\TATA_SANAND\RUN\ProcessedInput\Ship_Enq (1)_20260430_130049_20260430_133838.xls
+[2026-04-30 14:20:41] TATA watch_input started
+[2026-04-30 14:20:41] Watching folder: C:\Users\choud\TATA_SANAND\RUN\INPUT
+[2026-04-30 15:01:21] TATA watch_input started
+[2026-04-30 15:01:21] Watching folder: C:\Users\choud\TATA_SANAND\RUN\INPUT
+[2026-04-30 15:01:21] ============================================================
+[2026-04-30 15:01:21] New input file detected: C:\Users\choud\TATA_SANAND\RUN\INPUT\Ship_Enq (1)_20260430_130049.xls
+[2026-04-30 15:02:25] Output generated: C:\Users\choud\TATA_SANAND\DailyReports\HONDA_CN2026-04-30_150225.xlsx
+[2026-04-30 15:02:25] Processed input moved to: C:\Users\choud\TATA_SANAND\RUN\ProcessedInput\Ship_Enq (1)_20260430_130049_20260430_150225.xls
+[2026-04-30 15:10:46] TATA watch_input started
+[2026-04-30 15:10:46] Watching folder: C:\Users\choud\TATA_SANAND\RUN\INPUT
+[2026-04-30 17:47:37] TATA watch_input started
+[2026-04-30 17:47:37] Watching folder: C:\Users\choud\TATA_SANAND\RUN\INPUT
+[2026-04-30 17:47:37] ============================================================
+[2026-04-30 17:47:37] New input file detected: C:\Users\choud\TATA_SANAND\RUN\INPUT\Ship_Enq (1)_20260430_130049.xls
+[2026-04-30 17:48:35] Output generated: C:\Users\choud\TATA_SANAND\DailyReports\TATA_SAN_CN2026-04-30_174835.xlsx
+[2026-04-30 17:48:35] Processed input moved to: C:\Users\choud\TATA_SANAND\RUN\ProcessedInput\Ship_Enq (1)_20260430_130049_20260430_174835.xls
+[2026-05-01 10:11:51] TATA watch_input started
+[2026-05-01 10:11:51] Watching folder: C:\Users\choud\TATA_SANAND\RUN\INPUT
+[2026-05-01 10:11:51] Watching folder: C:\Users\choud\TATA_SANAND\RUN\INPUT
+[2026-05-01 10:12:01] ============================================================
+[2026-05-01 10:12:01] ============================================================
+[2026-05-01 10:12:01] New input file detected: C:\Users\choud\TATA_SANAND\RUN\INPUT\Ship_Enq (1)_20260430_130049.xls
+[2026-05-01 10:12:01] New input file detected: C:\Users\choud\TATA_SANAND\RUN\INPUT\Ship_Enq (1)_20260430_130049.xls
+[2026-05-01 10:13:39] Output generated: C:\Users\choud\TATA_SANAND\DailyReports\TATA_SANAND_CN_2026-05-01_101339.xlsx
+[2026-05-01 10:13:39] Processed input moved to: C:\Users\choud\TATA_SANAND\RUN\ProcessedInput\Ship_Enq (1)_20260430_130049_20260501_101339.xls
+[2026-05-01 10:13:45] Error processing file: C:\Users\choud\TATA_SANAND\RUN\INPUT\Ship_Enq (1)_20260430_130049.xls
+[2026-05-01 10:13:45] [WinError 2] The system cannot find the file specified
+[2026-05-01 10:13:45] Traceback (most recent call last):
+  File "C:\Users\choud\AppData\Local\Python\pythoncore-3.14-64\Lib\shutil.py", line 918, in move
+    os.rename(src, real_dst)
+    ~~~~~~~~~^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'C:\\Users\\choud\\TATA_SANAND\\RUN\\INPUT\\Ship_Enq (1)_20260430_130049.xls' -> 'C:\\Users\\choud\\TATA_SANAND\\RUN\\ProcessedInput\\Ship_Enq (1)_20260430_130049_20260501_101345.xls'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\choud\TATA_SANAND\SYSTEM\watch_input.py", line 62, in process_file
+    moved_path = move_file(file_path, PROCESSED_DIR)
+  File "C:\Users\choud\TATA_SANAND\SYSTEM\watch_input.py", line 46, in move_file
+    shutil.move(src, dest)
+    ~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\choud\AppData\Local\Python\pythoncore-3.14-64\Lib\shutil.py", line 938, in move
+    copy_function(src, real_dst)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\choud\AppData\Local\Python\pythoncore-3.14-64\Lib\shutil.py", line 514, in copy2
+    _winapi.CopyFile2(src_, dst_, flags)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+[2026-05-01 10:13:45] Could not move error file: [WinError 2] The system cannot find the file specified
+[2026-05-01 11:07:58] TATA watch_input started
+[2026-05-01 11:07:58] Watching folder: C:\Users\choud\TATA_SANAND\RUN\INPUT
+[2026-05-01 11:07:58] ============================================================
+[2026-05-01 11:07:58] New input file detected: C:\Users\choud\TATA_SANAND\RUN\INPUT\Ship_Enq (5).xls
+[2026-05-01 11:09:29] Output generated: C:\Users\choud\TATA_SANAND\DailyReports\TATA_SANAND_CN_2026-05-01_110929.xlsx
+[2026-05-01 11:09:29] Processed input moved to: C:\Users\choud\TATA_SANAND\RUN\ProcessedInput\Ship_Enq (5)_20260501_110929.xls
+[2026-05-01 12:38:40] TATA watch_input started
+[2026-05-01 12:38:40] Watching folder: C:\Users\choud\TATA_SANAND\RUN\INPUT
+[2026-05-01 12:38:40] ============================================================
+[2026-05-01 12:38:40] New input file detected: C:\Users\choud\TATA_SANAND\RUN\INPUT\Ship_Enq (8).xls
+[2026-05-01 12:40:15] Output generated: C:\Users\choud\TATA_SANAND\DailyReports\TATA_SANAND_CN_2026-05-01_124015.xlsx
+[2026-05-01 12:40:15] Processed input moved to: C:\Users\choud\TATA_SANAND\RUN\ProcessedInput\Ship_Enq (8)_20260501_124015.xls
+[2026-05-08 16:23:27] TATA watch_input started
+[2026-05-08 16:23:27] Watching folder: C:\Users\choud\TATA_SANAND\RUN\INPUT
+[2026-05-08 16:23:27] ============================================================
+[2026-05-08 16:23:27] New input file detected: C:\Users\choud\TATA_SANAND\RUN\INPUT\Ship_Enq (1).xls
+[2026-05-08 16:24:43] Output generated: C:\Users\choud\TATA_SANAND\DailyReports\TATA_SANAND_CN_2026-05-08_162443.xlsx
+[2026-05-08 16:24:43] Processed input moved to: C:\Users\choud\TATA_SANAND\RUN\ProcessedInput\Ship_Enq (1)_20260508_162443.xls
+[2026-05-09 16:21:09] TATA watch_input started
+[2026-05-09 16:21:09] Watching folder: C:\Users\choud\TATA_SANAND\RUN\INPUT
+[2026-05-09 16:21:09] ============================================================
+[2026-05-09 16:21:09] New input file detected: C:\Users\choud\TATA_SANAND\RUN\INPUT\Ship_Enq (7).xls
+[2026-05-09 16:22:16] Output generated: C:\Users\choud\TATA_SANAND\DailyReports\TATA_SANAND_CN_2026-05-09_162216.xlsx
+[2026-05-09 16:22:16] Processed input moved to: C:\Users\choud\TATA_SANAND\RUN\ProcessedInput\Ship_Enq (7)_20260509_162216.xls
+[2026-05-12 16:08:48] TATA watch_input started
+[2026-05-12 16:08:48] Watching folder: C:\Users\choud\TATA_SANAND\RUN\INPUT
+[2026-05-12 16:08:48] ============================================================
+[2026-05-12 16:08:48] New input file detected: C:\Users\choud\TATA_SANAND\RUN\INPUT\Ship_Enq.xls
+[2026-05-12 16:10:11] Output generated: C:\Users\choud\TATA_SANAND\DailyReports\TATA_SANAND_CN_2026-05-12_161011.xlsx
+[2026-05-12 16:10:11] Processed input moved to: C:\Users\choud\TATA_SANAND\RUN\ProcessedInput\Ship_Enq_20260512_161011.xls
+[2026-05-13 10:52:54] TATA watch_input started
+[2026-05-13 10:52:54] Watching folder: C:\Users\choud\TATA_SANAND\RUN\INPUT
+[2026-05-13 10:52:54] ============================================================
+[2026-05-13 10:52:54] New input file detected: C:\Users\choud\TATA_SANAND\RUN\INPUT\Ship_Enq (1)_20260430_130049.xls
+[2026-05-13 10:55:12] Output generated: C:\Users\choud\TATA_SANAND\DailyReports\TATA_SANAND_CN_2026-05-13_105512.xlsx
+[2026-05-13 10:55:12] Processed input moved to: C:\Users\choud\TATA_SANAND\RUN\ProcessedInput\Ship_Enq (1)_20260430_130049_20260513_105512.xls
+[2026-05-14 13:23:53] TATA watch_input started
+[2026-05-14 13:23:53] Watching folder: C:\Users\choud\TATA_SANAND\RUN\INPUT
+[2026-05-14 13:23:53] ============================================================
+[2026-05-14 13:23:53] New input file detected: C:\Users\choud\TATA_SANAND\RUN\INPUT\Ship_Enq.xls
+[2026-05-14 13:25:17] Output generated: C:\Users\choud\TATA_SANAND\DailyReports\TATA_SANAND_CN_2026-05-14_132517.xlsx
+[2026-05-14 13:25:17] Processed input moved to: C:\Users\choud\TATA_SANAND\RUN\ProcessedInput\Ship_Enq_20260514_132517.xls
+[2026-05-20 10:28:39] TATA watch_input started
+[2026-05-20 10:28:39] Watching folder: C:\Users\choud\TATA_SANAND\RUN\INPUT
+[2026-05-20 10:28:39] ============================================================
+[2026-05-20 10:28:39] New input file detected: C:\Users\choud\TATA_SANAND\RUN\INPUT\Ship_Enq (1)_20260430_130049_20260430_132803.xls
+[2026-05-20 10:30:26] Output generated: C:\Users\choud\TATA_SANAND\DailyReports\TATA_SANAND_CN_2026-05-20_103026.xlsx
+[2026-05-20 10:30:26] Processed input moved to: C:\Users\choud\TATA_SANAND\RUN\ProcessedInput\Ship_Enq (1)_20260430_130049_20260430_132803_20260520_103026.xls
+[2026-05-21 10:59:18] TATA watch_input started
+[2026-05-21 10:59:18] Watching folder: C:\Users\choud\TATA_SANAND\RUN\INPUT
+[2026-05-21 10:59:18] ============================================================
+[2026-05-21 10:59:18] New input file detected: C:\Users\choud\TATA_SANAND\RUN\INPUT\Ship_Enq (1)_20260508_162443.xls
+[2026-05-21 11:00:56] Output generated: C:\Users\choud\TATA_SANAND\DailyReports\TATA_SANAND_CN_2026-05-21_110056.xlsx
+[2026-05-21 11:00:56] Processed input moved to: C:\Users\choud\TATA_SANAND\RUN\ProcessedInput\Ship_Enq (1)_20260508_162443_20260521_110056.xls
+[2026-05-21 11:08:57] TATA watch_input started
+[2026-05-21 11:08:57] Watching folder: C:\Users\choud\TATA_SANAND\RUN\INPUT
+[2026-05-21 11:08:57] ============================================================
+[2026-05-21 11:08:57] New input file detected: C:\Users\choud\TATA_SANAND\RUN\INPUT\Ship_Enq (1)_20260430_130049_20260430_174835.xls
+[2026-05-21 11:10:29] Output generated: C:\Users\choud\TATA_SANAND\DailyReports\TATA_SANAND_CN_2026-05-21_111029.xlsx
+[2026-05-21 11:10:29] Processed input moved to: C:\Users\choud\TATA_SANAND\RUN\ProcessedInput\Ship_Enq (1)_20260430_130049_20260430_174835_20260521_111029.xls
