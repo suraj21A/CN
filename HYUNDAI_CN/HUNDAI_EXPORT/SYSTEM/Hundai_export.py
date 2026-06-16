@@ -5,7 +5,7 @@ import sys
 import pandas as pd
 from openpyxl import load_workbook
 from datetime import datetime
-from db_helper import save_cn_to_mysql
+
 TOOL_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(TOOL_DIR)
 
@@ -32,7 +32,7 @@ MODEL_MAP = {
     "SV:S6": "i20",
     "0Y:S4": "Verna",
     "FH:WC": "Alcazar",
-    "HQ:S6": "Grand",
+    "HQ:S6": "Nios",
     "HO:W5": "Kona",
     "9M:WD": "Tucson",
     "6I:WS": "Ioniq 5",
@@ -150,32 +150,72 @@ def prepare_trpspn_df(trpspn_df):
 
 def build_cn_numbers(df):
     """
-    KIA-style suffix logic:
-    - New vehicle -> base CN No
-    - Same vehicle + same dealer -> same suffix
-    - Same vehicle + new dealer -> next suffix
+    CN Logic
+
+    Same Vehicle + Same Dealer + Same Gate Out Date
+        -> same suffix
+
+    Same Vehicle + New Dealer + Same Gate Out Date
+        -> next suffix
+
+    Gate Out Date change
+        -> suffix reset
     """
+
     cn_numbers = []
+
     prev_vehicle = None
+    prev_gateout = None
+
     dealer_suffix_map = {}
 
     for _, row in df.iterrows():
+
         vehicle = clean_text(row["Plate no"]).upper()
         dealer = clean_text(row["Distributor Code"]).upper()
+
+        gateout = pd.to_datetime(
+            row["Gate Out Date"],
+            errors="coerce"
+        ).strftime("%Y-%m-%d")
+
         base_cn = make_base_cn_no(row["Lot no"])
 
-        if prev_vehicle is None or vehicle != prev_vehicle:
+        # New vehicle OR new gate out date
+        if (
+            prev_vehicle is None
+            or vehicle != prev_vehicle
+            or gateout != prev_gateout
+        ):
+
             cn_numbers.append(base_cn)
+
             prev_vehicle = vehicle
-            dealer_suffix_map = {dealer: ""}
+            prev_gateout = gateout
+
+            dealer_suffix_map = {
+                dealer: ""
+            }
+
         else:
+
             if dealer in dealer_suffix_map:
+
                 suffix = dealer_suffix_map[dealer]
-                cn_numbers.append(f"{base_cn}{suffix}")
+
+                cn_numbers.append(
+                    f"{base_cn}{suffix}"
+                )
+
             else:
+
                 suffix = f"-{len(dealer_suffix_map)}"
+
                 dealer_suffix_map[dealer] = suffix
-                cn_numbers.append(f"{base_cn}{suffix}")
+
+                cn_numbers.append(
+                    f"{base_cn}{suffix}"
+                )
 
     return cn_numbers
 
@@ -209,6 +249,7 @@ def process_hyundai_cn(trpspn_file, filter_date=None):
     wb = load_workbook(TEMPLATE_FILE)
     ws = wb.active
 
+    # Clear old rows (template cleanup)
     for row_idx in range(2, ws.max_row + 1):
         for col in range(1, 27):
             ws.cell(row_idx, col).value = None
@@ -231,79 +272,7 @@ def process_hyundai_cn(trpspn_file, filter_date=None):
         actual_route = f"{FIXED_OFFICE}-{FIXED_DESTINATION}-{FIXED_CONSIGNOR}"
         charged_route = actual_route
 
-        print("-" * 60)
-        print(f"Row {i}")
-        print("Plate No:", plate_no)
-        print("Lot No:", lot_no)
-        print("CN No:", cn_no)
-        print("Consignee:", FIXED_CONSIGNEE)
-        print("Destination:", FIXED_DESTINATION)
-        print("Billing Date:", billing_date)
-        print("CN Date:", cn_date)
-        print("VIN No:", vin_no)
-        print("Model Code:", model_code)
-        print("MM Material:", mm_material)
-        print("Purch Amt:", purch_amt)
-        
-                    # Write to Excel
-        ws.cell(i, 1).value = cn_no
-        ws.cell(i, 2).value = FIXED_CN_TYPE
-        ws.cell(i, 3).value = cn_date
-        ws.cell(i, 4).value = FIXED_OFFICE
-        ws.cell(i, 5).value = FIXED_BILLING_OFFICE
-        ws.cell(i, 6).value = FIXED_CONSIGNOR
-        ws.cell(i, 7).value = actual_route
-        ws.cell(i, 8).value = charged_route
-        ws.cell(i, 9).value = FIXED_CONSIGNEE
-        ws.cell(i, 10).value = plate_no
-        ws.cell(i, 11).value = FIXED_RATE_CHART
-        ws.cell(i, 12).value = FIXED_LOAD_TYPE
-        ws.cell(i, 13).value = ""
-        ws.cell(i, 14).value = lot_no
-        ws.cell(i, 15).value = billing_date
-        ws.cell(i, 16).value = mm_material
-        ws.cell(i, 17).value = FIXED_WEIGHT
-        ws.cell(i, 18).value = rate_value
-        ws.cell(i, 19).value = freight_value
-        ws.cell(i, 20).value = ""
-        ws.cell(i, 21).value = vin_no
-        ws.cell(i, 22).value = ""
-        ws.cell(i, 23).value = ""
-        ws.cell(i, 24).value = ""
-        ws.cell(i, 25).value = ""
-        ws.cell(i, 26).value = ""
-    
-        # ===== NEW: SAVE TO MYSQL =====
-        row_dict = {
-            'CN No': cn_no,
-            'CN Type': FIXED_CN_TYPE,
-            'CN Date': cn_date,
-            'Office List': FIXED_OFFICE,
-            'Billing Office List': FIXED_BILLING_OFFICE,
-            'Consignor': FIXED_CONSIGNOR,
-            'Actual Route': actual_route,
-            'Charged Route': charged_route,
-            'Consignee': FIXED_CONSIGNEE,
-            'Vehicle No': plate_no,
-            'Rate Chart': FIXED_RATE_CHART,
-            'Load Type': FIXED_LOAD_TYPE,
-            'Lr No': None,
-            'MM Invoice No': lot_no,
-            'MM Invoice Date': billing_date,
-            'MM Material': mm_material,
-            'MM Actual Weight': FIXED_WEIGHT,
-            'Rate': rate_value,
-            'Freight': freight_value,
-            'Other Charges': None,
-            'MM Chassis No': vin_no,
-            'MM Engine No': None,
-            'MM NVRR No': None,
-            'MM Remark': None,
-            'No of Vehicles In Trailer': None,
-            'Pod Date': None,
-        }
-        
-        save_cn_to_mysql(row_dict)
+        # Write to Excel
         ws.cell(i, 1).value = cn_no
         ws.cell(i, 2).value = FIXED_CN_TYPE
         ws.cell(i, 3).value = cn_date
